@@ -36,7 +36,7 @@ const removeTodo = (id) => {
         todos.splice(todoIndex, 1)
         saveTodos()
     }
-}
+};
 
 // Toggle the completed value for a given todo
 const toggleTodo = (id) => {
